@@ -1,6 +1,6 @@
 #function for accenpting percentage of students
 def input_percentage():
-      perc = []
+      
       number_of_students = int(input("Enter the number of students : "))
       for i in range (number_of_students):
             perc.append(float(input("Enter the percent of students(0)".format(i+1))))
